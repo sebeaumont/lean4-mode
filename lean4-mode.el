@@ -103,6 +103,7 @@ FILE-NAME."
   (interactive)
   (lean4-execute))
 
+;TODO:seb-literate -- only used by interactive command!
 (defun lean4-refresh-file-dependencies ()
   "Refresh the file dependencies.
 
